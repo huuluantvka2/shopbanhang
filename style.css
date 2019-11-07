@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+}
+.container a, .header a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+	width:100%;
+	height:700px;
+	background-image: url('img/1.png');
+	background-size:100% 100%;
+}
+.header h3{
+	display: block;
+	padding-top:50px;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.menu{
+	width:70%;
+	height:50px;
+	background: #FA558F;
+	margin:auto;
+	margin-top:50px;
+}
+ul li{
+	list-style-type: none;
+}
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	font-size:20px;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu ul li{
+	background: none;
+	height:50px;
+	padding: 10px 10px 10px 10px;
+	transition: 0.6s;
+}
+.menu ul li:hover{
+	background: #3C3B3B;
+	transition: 0.6s;
+}
+.container{
+	width:73%;
+	height:1000px;
+	background: transparent;
+	margin-top:50px;
+}
+.banner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.banner div{
+	width:30%;
+	height: auto;
+	background: grey;
+	position: relative;
+	transition: 0.6s;
+	margin-bottom:70px;
+}
+.banner div img{
+	width:100%;
+	height: 300px;
+	cursor: pointer;
+}
+.banner div p{
+	position: absolute;
+	left: 70px;
+	top: 136px;
+	text-transform:uppercase;
+	font-size:20px;
+	color:white;
+}
+.banner div:hover{
+	transform:scale(1.1);
+	transition: 0.6s;
+}
+.tabs-box a{
+	display: inline-block;
+	width:15%;
+	background: #FA558F;
+	font-size:13px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top:10px;
+	float: right;
+	margin-left:10px;
+	border-radius: 5px;
+}
+.tabs-box a:hover{
+	background: #3C3B3B;
+	transition: 0.6s;
+}
+.information{
+	width:100%;
+	border-top:1px dashed black; 
+}
+.information p i{
+	font-size:30px;
+}
