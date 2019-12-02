@@ -191,11 +191,11 @@ ul li{
 	margin:auto;
 }
 .content-news{
-	width:48%;
+	width:45%;
 	height:230px;
 	background: transparent;
 	float:left;
-	margin-right:2%;
+	margin-right:50px;
 }
 h2{
 	text-align: center;
